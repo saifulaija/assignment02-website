@@ -44,11 +44,18 @@ body{
 
 }
 
+.article__title{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-tertiary);
+
+}
+
 
   /* Start Nav Styles  */
 
   nav{
-    background: rgba(255, 144, 14, 0.1);
+   
    
     display: flex;
     justify-content: space-between;
@@ -126,3 +133,59 @@ body{
   span{
     color: var(--color-primary);
   }
+
+  /* End Feature Styles */
+
+  /* Start Love Styles  */
+
+  .love{
+    display: flex;
+    background-color: red;
+  }
+
+  .line{
+    width: 5px;
+    height: 120px;
+    border-left: 6px solid var(--color-primary);
+  }
+  .love__description{
+    display: flex;
+    justify-content: center;
+    padding: 8rem;
+    gap:15px;
+   
+  }
+
+  .love__image > img{
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .love__title{
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--color-tertiary);
+  }
+
+  .btn__love{
+    background-color: var(--color-primary);
+    padding: 30px 40px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: -150px;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .love__experience{
+    color: #FFFFFF;
+    font-size: 25px;
+  }
+
+
+  /* Start Facts Styles  */
+
+
+  
