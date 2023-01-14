@@ -23,7 +23,7 @@ body{
 .container{
     padding: 0 25px;
     width: 100%;
-    max-width: 1350px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -187,5 +187,100 @@ body{
 
   /* Start Facts Styles  */
 
+  .facts__container{
+    margin-top: 170px;
+  }
 
-  
+
+  .facts__gallery__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    transition: 1s ;
+    margin:130px 0;
+  }
+
+  .facts__title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+  }
+
+
+  .facts__gallery__item{
+    width: 310px;
+    height: 250px;
+    border: 1px solid var(--color-primary);
+    padding: 100px;
+  }
+
+  .facts__gallery__item:hover{
+
+   transform:scale(0.5)
+  }
+
+  .facts__number{
+    font-size: 30px;
+    font-weight: 600;
+    color:#424242;
+  }
+
+  .facts__text{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+  }
+
+  /* End Facts styles  */
+
+   /* Start Sponsors Section  */
+
+
+   .sponsors{
+    padding: 50px;
+    margin-top: 150px;
+   }
+
+   .sponsors__heading{
+    text-align: center;
+   }
+
+   .sponsor__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 50px;
+   }
+
+   .sponsor__title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+   }
+
+   /* End Sponsor Style  */
+
+   /* Start Footer Style  */
+
+    footer{
+        background-color:#FFF4E7;
+        height: 80px;
+        display: flex;
+        width: 100%;
+        max-width: 1400;
+        justify-content:center ;
+        align-items: center;
+        margin-top: 200px;
+    }
+   .footer__text{
+         font-size: 20px;
+         font-weight: 400;
+         color: #424242;
+        
+
+   }
+
+   
+
